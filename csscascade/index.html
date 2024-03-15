@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- user agent style（デフォルトのスタイル）が適用される -->
+    <p><a href="https://example.org">User agent styles</a></p>
+
+    <!-- :where() は0-0-0だがoriginが違うのでuser agent stylesは適用されない -->
+    <p><a href="https://example.org" class="author">Author styles</a></p>
+  </body>
+</html>
